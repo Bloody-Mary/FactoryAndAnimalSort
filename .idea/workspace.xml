@@ -4,20 +4,12 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f9f5d4c-520c-4174-bf88-be3598cae015" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/service/FactoryService.java" afterDir="false" />
+    <list default="true" id="3f9f5d4c-520c-4174-bf88-be3598cae015" name="Changes" comment="Created method main">
+      <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/AnimalComparable.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/_main/_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/_main/_Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Bear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Eagle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Fox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Lion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Moose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Moose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Owl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Owl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Whale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Whale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Wolf.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/service/FactoryService.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/service/FactoryService.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -28,6 +20,7 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="Class" />
+        <option value="Interface" />
       </list>
     </option>
   </component>
@@ -48,6 +41,31 @@
     "onboarding.tips.debug.path": "/home/mary/IdeaProjects/itgirlschool/FactoryAndAnimalSort/src/main/java/org/example/Main.java"
   }
 }]]></component>
+  <component name="RecentsManager">
+    <key name="ExtractSuperBase.RECENT_KEYS">
+      <recent name="ru.babushkina.factoryandanimalsort.model" />
+    </key>
+  </component>
+  <component name="RunManager">
+    <configuration name="_Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ru.babushkina.factoryandanimalsort._main._Main" />
+      <module name="FactoryAndAnimalSort" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="ru.babushkina.factoryandanimalsort._main.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="Application._Main" />
+      </list>
+    </recent_temporary>
+  </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
     <task active="true" id="Default" summary="Default task">
@@ -129,7 +147,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689876461846</updated>
     </task>
-    <option name="localTasksCounter" value="10" />
+    <task id="LOCAL-00010" summary="Created class FactoryService">
+      <option name="closed" value="true" />
+      <created>1689877752787</created>
+      <option name="number" value="00010" />
+      <option name="presentableId" value="LOCAL-00010" />
+      <option name="project" value="LOCAL" />
+      <updated>1689877752787</updated>
+    </task>
+    <task id="LOCAL-00011" summary="Changed classes Animal, Bear, Cat, Dog, Eagle, Fox, Lion, Moose, Owl, Whale and Wolf">
+      <option name="closed" value="true" />
+      <created>1689877844492</created>
+      <option name="number" value="00011" />
+      <option name="presentableId" value="LOCAL-00011" />
+      <option name="project" value="LOCAL" />
+      <updated>1689877844492</updated>
+    </task>
+    <option name="localTasksCounter" value="12" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -142,7 +176,9 @@
     <MESSAGE value="Created class Color" />
     <MESSAGE value="Added variables and getter to class Color" />
     <MESSAGE value="Created class _Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created class _Main" />
+    <MESSAGE value="Created class FactoryService" />
+    <MESSAGE value="Changed classes Animal, Bear, Cat, Dog, Eagle, Fox, Lion, Moose, Owl, Whale and Wolf" />
+    <option name="LAST_COMMIT_MESSAGE" value="Changed classes Animal, Bear, Cat, Dog, Eagle, Fox, Lion, Moose, Owl, Whale and Wolf" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
