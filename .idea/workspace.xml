@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f9f5d4c-520c-4174-bf88-be3598cae015" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Lion.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Color.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -85,7 +85,23 @@
       <option name="project" value="LOCAL" />
       <updated>1689875893707</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Added method printInfo to classes Lion, Bear, Whale, Moose, Eagle, Wolf and Fox">
+      <option name="closed" value="true" />
+      <created>1689876078984</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1689876078984</updated>
+    </task>
+    <task id="LOCAL-00007" summary="Created class Color">
+      <option name="closed" value="true" />
+      <created>1689876112523</created>
+      <option name="number" value="00007" />
+      <option name="presentableId" value="LOCAL-00007" />
+      <option name="project" value="LOCAL" />
+      <updated>1689876112523</updated>
+    </task>
+    <option name="localTasksCounter" value="8" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -94,7 +110,9 @@
     <MESSAGE value="Added method printInfo to class Dog" />
     <MESSAGE value="Created class Owl and added method printInfo to it" />
     <MESSAGE value="Created classes Lion, Bear, Whale, Moose, Eagle, Wolf and Fox" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created classes Lion, Bear, Whale, Moose, Eagle, Wolf and Fox" />
+    <MESSAGE value="Added method printInfo to classes Lion, Bear, Whale, Moose, Eagle, Wolf and Fox" />
+    <MESSAGE value="Created class Color" />
+    <option name="LAST_COMMIT_MESSAGE" value="Created class Color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
