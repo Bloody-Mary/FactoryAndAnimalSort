@@ -1,8 +1,7 @@
 package ru.babushkina.factoryandanimalsort.model;
 
 public class Dog extends Animal {
-    @Override
-    public void printInfo() {
-        System.out.println("Собака: (" + getId() + ") возрастом " + getAge() + ", весом " + getWeight() + " и цветом " + getColor());
+    public Dog(int age, int weight, Color color, Long id) {
+        super(age, weight, color, id);
     }
 }

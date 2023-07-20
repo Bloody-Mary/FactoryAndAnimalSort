@@ -1,8 +1,7 @@
 package ru.babushkina.factoryandanimalsort.model;
 
 public class Lion extends Animal {
-    @Override
-    public void printInfo() {
-        System.out.println("Лев: (" + getId() + ") возрастом " + getAge() + ", весом " + getWeight() + " и цветом " + getColor());
+    public Lion(int age, int weight, Color color, Long id) {
+        super(age, weight, color, id);
     }
 }

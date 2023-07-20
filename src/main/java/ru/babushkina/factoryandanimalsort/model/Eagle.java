@@ -1,8 +1,7 @@
 package ru.babushkina.factoryandanimalsort.model;
 
 public class Eagle extends Animal {
-    @Override
-    public void printInfo() {
-        System.out.println("Орёл: (" + getId() + ") возрастом " + getAge() + ", весом " + getWeight() + " и цветом " + getColor());
+    public Eagle(int age, int weight, Color color, Long id) {
+        super(age, weight, color, id);
     }
 }

@@ -1,12 +1,12 @@
 package ru.babushkina.factoryandanimalsort.model;
 
-public abstract class Animal {
+public class Animal {
     int age;
     double weight;
     Color color;
     long id;
 
-    public Animal() {
+    public Animal(int age, int weight, Color color, Long id) {
         this.id = nextId++;
     }
 
@@ -38,5 +38,12 @@ public abstract class Animal {
         this.color = color;
     }
 
-    public abstract void printInfo();
+    public void printInfo() {
+        System.out.println("Животное №" + id);
+        System.out.println("Возраст: " + age);
+        System.out.println("Вес: " + weight);
+        System.out.println("Цвет: " + color);
+        System.out.println();
+    }
+    }
 }
