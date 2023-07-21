@@ -4,27 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f9f5d4c-520c-4174-bf88-be3598cae015" name="Changes" comment="Created method main">
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/main/_Main.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/AnimalType.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Comparable.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/service/AnimalFactory.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/_main/_Main.java" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Animal.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Animal.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Bear.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Bear.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Cat.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Cat.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Color.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Color.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Dog.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Dog.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Eagle.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Eagle.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Fox.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Fox.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Lion.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Lion.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Moose.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Moose.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Owl.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Owl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Whale.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Whale.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Wolf.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/model/Wolf.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/service/FactoryService.java" beforeDir="false" />
+    <list default="true" id="3f9f5d4c-520c-4174-bf88-be3598cae015" name="Changes" comment="">
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/main/_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/main/_Main.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/service/AnimalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/service/AnimalFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -215,7 +197,63 @@
       <option name="project" value="LOCAL" />
       <updated>1689879408852</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="Updated class Animal">
+      <option name="closed" value="true" />
+      <created>1689945121575</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1689945121575</updated>
+    </task>
+    <task id="LOCAL-00014" summary="Deleted classes _Main and FactoryService">
+      <option name="closed" value="true" />
+      <created>1689945189213</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1689945189213</updated>
+    </task>
+    <task id="LOCAL-00015" summary="Created new class _Main">
+      <option name="closed" value="true" />
+      <created>1689945208401</created>
+      <option name="number" value="00015" />
+      <option name="presentableId" value="LOCAL-00015" />
+      <option name="project" value="LOCAL" />
+      <updated>1689945208401</updated>
+    </task>
+    <task id="LOCAL-00016" summary="Updated class AnimalType">
+      <option name="closed" value="true" />
+      <created>1689945243622</created>
+      <option name="number" value="00016" />
+      <option name="presentableId" value="LOCAL-00016" />
+      <option name="project" value="LOCAL" />
+      <updated>1689945243622</updated>
+    </task>
+    <task id="LOCAL-00017" summary="Updated classes Bear, Cat, Dog, Eagle, Fox, Lion, Moose, Owl, Whale and Wolf">
+      <option name="closed" value="true" />
+      <created>1689945300479</created>
+      <option name="number" value="00017" />
+      <option name="presentableId" value="LOCAL-00017" />
+      <option name="project" value="LOCAL" />
+      <updated>1689945300479</updated>
+    </task>
+    <task id="LOCAL-00018" summary="Created classes Comparable and AnimalFactory">
+      <option name="closed" value="true" />
+      <created>1689945325267</created>
+      <option name="number" value="00018" />
+      <option name="presentableId" value="LOCAL-00018" />
+      <option name="project" value="LOCAL" />
+      <updated>1689945325267</updated>
+    </task>
+    <task id="LOCAL-00019" summary="Updated enum Color">
+      <option name="closed" value="true" />
+      <created>1689945344423</created>
+      <option name="number" value="00019" />
+      <option name="presentableId" value="LOCAL-00019" />
+      <option name="project" value="LOCAL" />
+      <updated>1689945344423</updated>
+    </task>
+    <option name="localTasksCounter" value="20" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -231,7 +269,14 @@
     <MESSAGE value="Created class FactoryService" />
     <MESSAGE value="Changed classes Animal, Bear, Cat, Dog, Eagle, Fox, Lion, Moose, Owl, Whale and Wolf" />
     <MESSAGE value="Updated class main in class _Main" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated class main in class _Main" />
+    <MESSAGE value="Updated class Animal" />
+    <MESSAGE value="Deleted classes _Main and FactoryService" />
+    <MESSAGE value="Created new class _Main" />
+    <MESSAGE value="Updated class AnimalType" />
+    <MESSAGE value="Updated classes Bear, Cat, Dog, Eagle, Fox, Lion, Moose, Owl, Whale and Wolf" />
+    <MESSAGE value="Created classes Comparable and AnimalFactory" />
+    <MESSAGE value="Updated enum Color" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated enum Color" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>

@@ -1,13 +1,11 @@
 package ru.babushkina.factoryandanimalsort.service;
 
 import ru.babushkina.factoryandanimalsort.model.*;
-
 import java.util.Random;
 
 public class AnimalFactory {
     private static AnimalFactory instance;
-
-    private Random random;
+    private final Random random;
 
     private AnimalFactory() {
         random = new Random();
