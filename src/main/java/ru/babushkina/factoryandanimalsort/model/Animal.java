@@ -1,17 +1,17 @@
 package ru.babushkina.factoryandanimalsort.model;
 
-public class Animal {
-    int age;
-    double weight;
-    Color color;
-    long id;
+public abstract class Animal implements Comparable<Animal> {
+    private int age;
+    private double weight;
+    private Color color;
+    private final Long id;
+    private static Long currentId = 1L;
 
-    public Animal(int age, int weight, Color color, Long id) {
-        this.id = nextId++;
-    }
-
-    public long getId() {
-        return id;
+    public Animal(int age, double weight, Color color) {
+        this.age = age;
+        this.weight = weight;
+        this.color = color;
+        this.id = currentId++;
     }
 
     public int getAge() {
@@ -38,12 +38,12 @@ public class Animal {
         this.color = color;
     }
 
-    public void printInfo() {
-        System.out.println("Животное №" + id);
-        System.out.println("Возраст: " + age);
-        System.out.println("Вес: " + weight);
-        System.out.println("Цвет: " + color);
-        System.out.println();
+    public long getId() {
+        return id;
     }
+
+    @Override
+    public int compareTo(Animal other) {
+        return Integer.compare(this.getAge(), other.getAge());
     }
 }
