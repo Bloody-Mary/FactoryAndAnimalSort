@@ -20,7 +20,7 @@ public class AnimalFactory {
 
     public Animal createAnimal(String type) {
         int age = random.nextInt(50) + 1;
-        double weight = random.nextDouble() * 50;
+        double weight = random.nextDouble() * 70;
         Color color = getRandomColor();
 
         switch (type.toLowerCase()) {

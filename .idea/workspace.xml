@@ -5,7 +5,6 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="3f9f5d4c-520c-4174-bf88-be3598cae015" name="Changes" comment="">
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/main/_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/main/_Main.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/service/AnimalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/service/AnimalFactory.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -253,7 +252,15 @@
       <option name="project" value="LOCAL" />
       <updated>1689945344423</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="Removed extra lines from classes _Main and AnimalFactory">
+      <option name="closed" value="true" />
+      <created>1689945706240</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1689945706240</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -276,7 +283,8 @@
     <MESSAGE value="Updated classes Bear, Cat, Dog, Eagle, Fox, Lion, Moose, Owl, Whale and Wolf" />
     <MESSAGE value="Created classes Comparable and AnimalFactory" />
     <MESSAGE value="Updated enum Color" />
-    <option name="LAST_COMMIT_MESSAGE" value="Updated enum Color" />
+    <MESSAGE value="Removed extra lines from classes _Main and AnimalFactory" />
+    <option name="LAST_COMMIT_MESSAGE" value="Removed extra lines from classes _Main and AnimalFactory" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
