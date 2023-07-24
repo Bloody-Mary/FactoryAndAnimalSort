@@ -2,7 +2,7 @@ package ru.babushkina.factoryandanimalsort._main;
 
 import ru.babushkina.factoryandanimalsort.model.Animal;
 import ru.babushkina.factoryandanimalsort.model.AnimalType;
-import ru.babushkina.factoryandanimalsort.service.AnimalFactory;
+import ru.babushkina.factoryandanimalsort.fabric.AnimalFactory;
 
 import java.util.ArrayList;
 import java.util.Comparator;
