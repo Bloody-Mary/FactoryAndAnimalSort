@@ -1,4 +1,4 @@
-package ru.babushkina.factoryandanimalsort.main;
+package ru.babushkina.factoryandanimalsort._main;
 
 import ru.babushkina.factoryandanimalsort.model.Animal;
 import ru.babushkina.factoryandanimalsort.model.AnimalType;
@@ -20,24 +20,14 @@ public class _Main {
 
         System.out.println("Заполненная коллекция животных:");
         for (Animal animal : animals) {
-            System.out.println("Наше животное имеет следующие характеристики:");
-            System.out.println("ID: " + animal.getId());
-            System.out.println("Вид: " + animal.getClass().getSimpleName());
-            System.out.println("Возраст: " + animal.getAge() + " лет");
-            System.out.println("Вес: " + String.format("%.2f", animal.getWeight()) + " кг");
-            System.out.println("Цвет: " + animal.getColor());
+            System.out.println(animal);
             System.out.println("--------------------");
         }
 
         animals.sort(Comparator.comparingInt(Animal::getAge));
         System.out.println("Отсортированная коллекция животных по возрастанию:");
         for (Animal animal : animals) {
-            System.out.println("Наше животное:");
-            System.out.println("ID: " + animal.getId());
-            System.out.println("Тип: " + animal.getClass().getSimpleName());
-            System.out.println("Возраст: " + animal.getAge() + " лет");
-            System.out.println("Вес: " + String.format("%.2f", animal.getWeight()) + " кг");
-            System.out.println("Цвет: " + animal.getColor());
+            System.out.println(animal);
             System.out.println("--------------------");
         }
     }
