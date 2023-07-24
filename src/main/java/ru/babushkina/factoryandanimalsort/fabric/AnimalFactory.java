@@ -1,4 +1,4 @@
-package ru.babushkina.factoryandanimalsort.service;
+package ru.babushkina.factoryandanimalsort.fabric;
 
 import ru.babushkina.factoryandanimalsort.model.*;
 import java.util.Random;
@@ -22,7 +22,6 @@ public class AnimalFactory {
         int age = random.nextInt(50) + 1;
         double weight = random.nextDouble() * 70;
         Color color = getRandomColor();
-
         switch (type.toLowerCase()) {
             case "dog":
                 return new Dog(age, weight, color);
