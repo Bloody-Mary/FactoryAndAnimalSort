@@ -4,11 +4,7 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="3f9f5d4c-520c-4174-bf88-be3598cae015" name="Changes" comment="Updated class _Main">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/_main/_Main.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/_main/_Main.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/service/AnimalFactory.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/ru/babushkina/factoryandanimalsort/fabric/AnimalFactory.java" afterDir="false" />
-    </list>
+    <list default="true" id="3f9f5d4c-520c-4174-bf88-be3598cae015" name="Changes" comment="" />
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -287,7 +283,23 @@
       <option name="project" value="LOCAL" />
       <updated>1690206348961</updated>
     </task>
-    <option name="localTasksCounter" value="24" />
+    <task id="LOCAL-00024" summary="Moved from service to fabric package class AnimalFactory">
+      <option name="closed" value="true" />
+      <created>1690208317939</created>
+      <option name="number" value="00024" />
+      <option name="presentableId" value="LOCAL-00024" />
+      <option name="project" value="LOCAL" />
+      <updated>1690208317939</updated>
+    </task>
+    <task id="LOCAL-00025" summary="Updated class _Main">
+      <option name="closed" value="true" />
+      <created>1690208335299</created>
+      <option name="number" value="00025" />
+      <option name="presentableId" value="LOCAL-00025" />
+      <option name="project" value="LOCAL" />
+      <updated>1690208335299</updated>
+    </task>
+    <option name="localTasksCounter" value="26" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -314,7 +326,9 @@
     <MESSAGE value="Changed weight value from 50 to 70 in method createAnimal" />
     <MESSAGE value="Changed print method in class _Main" />
     <MESSAGE value="Created method toString" />
-    <option name="LAST_COMMIT_MESSAGE" value="Created method toString" />
+    <MESSAGE value="Moved from service to fabric package class AnimalFactory" />
+    <MESSAGE value="Updated class _Main" />
+    <option name="LAST_COMMIT_MESSAGE" value="Updated class _Main" />
   </component>
   <component name="XDebuggerManager">
     <breakpoint-manager>
